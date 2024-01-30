@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     tagline.innerHTML = slides[index].tagLine;
     bannerImage.src = slides[index].image;
   }
-
+    showImage(0);
   //événement pour la flèche gauche
   arrowLeft.addEventListener("click", function() {
     if (currentIndex == 0) {
